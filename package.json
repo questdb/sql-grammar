@@ -2,7 +2,7 @@
   "name": "@questdb/sql-syntax",
   "version": "1.0.0",
   "description": "List of keywords, functions and constants that QuestDB supports",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
