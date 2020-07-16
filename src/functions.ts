@@ -2,6 +2,7 @@ export default [
   "abs",
   "all_tables",
   "avg",
+  "cast",
   "coalesce",
   "concat",
   "count",

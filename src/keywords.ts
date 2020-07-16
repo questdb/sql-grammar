@@ -22,6 +22,7 @@ export default [
   "drop",
   "else",
   "end",
+  "fill",
   "foreign",
   "from",
   "grant",
