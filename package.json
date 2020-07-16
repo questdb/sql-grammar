@@ -1,5 +1,5 @@
 {
-  "name": "@questdb/sql-syntax",
+  "name": "@questdb/sql-grammar",
   "version": "1.0.1",
   "description": "List of keywords, functions and constants that QuestDB supports",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/questdb/sql-syntax.git"
+    "url": "git+ssh://git@github.com/questdb/sql-grammar.git"
   },
   "keywords": [
     "QuestDB"
@@ -23,9 +23,9 @@
   "author": "QuestDB",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/questdb/sql-syntax/issues"
+    "url": "https://github.com/questdb/sql-grammar/issues"
   },
-  "homepage": "https://github.com/questdb/sql-syntax#readme",
+  "homepage": "https://github.com/questdb/sql-grammar#readme",
   "files": [
     "lib/**/*"
   ],
