@@ -7,11 +7,17 @@
   </a>
 </p>
 
-<hr/>
-
 This repository contains list of keywords, functions and constants that QuestDB
 supports. This npm package is used to build rich frontend applications that
 support QuestDB's grammar.
+
+<!-- prettier-ignore-start -->
+<div align="center">
+  <a href="http://questdb.io">
+    <img src=".github/structure.png" width="400" />
+  </a>
+</div>
+<!-- prettier-ignore-end -->
 
 ## Install
 
