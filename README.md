@@ -61,7 +61,7 @@ Concepts:
 
 ## Support / Contact
 
-[Slack Channel](https://questdb.slack.com)
+[Slack Channel](https://slack.questdb.io)
 
 ## Roadmap
 
