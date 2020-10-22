@@ -1,5 +1,6 @@
 export default [
   "binary",
+  "boolean",
   "date",
   "double",
   "float",
