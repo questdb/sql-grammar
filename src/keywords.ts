@@ -27,6 +27,7 @@ export default [
   "else",
   "end",
   "except",
+  "exists",
   "fill",
   "foreign",
   "from",
