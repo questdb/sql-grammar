@@ -8,7 +8,6 @@ export default [
   "asof",
   "backup",
   "between",
-  "boolean",
   "by",
   "cache",
   "capacity",
