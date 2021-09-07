@@ -5,6 +5,7 @@ export default [
   "batch",
   "cast",
   "coalesce",
+  "commitLag",
   "concat",
   "count",
   "dateadd",
