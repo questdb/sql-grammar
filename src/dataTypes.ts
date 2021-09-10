@@ -4,6 +4,7 @@ export default [
   "date",
   "double",
   "float",
+  "geohash",
   "int",
   "long",
   "long256",

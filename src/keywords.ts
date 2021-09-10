@@ -1,5 +1,6 @@
 export default [
   "add",
+  "align",
   "all",
   "alter",
   "and",
@@ -11,6 +12,7 @@ export default [
   "between",
   "by",
   "cache",
+  "calendar",
   "capacity",
   "case",
   "cast",
@@ -58,6 +60,7 @@ export default [
   "none",
   "not",
   "null",
+  "offset",
   "on",
   "only",
   "or",
@@ -80,6 +83,7 @@ export default [
   "table",
   "tables",
   "then",
+  "time",
   "to",
   "transaction",
   "truncate",
@@ -92,4 +96,5 @@ export default [
   "where",
   "with",
   "writer",
+  "zone",
 ]
