@@ -97,4 +97,7 @@ export default [
   "with",
   "writer",
   "zone",
+  "snapshot",
+  "prepare",
+  "complete",
 ]
