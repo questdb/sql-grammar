@@ -64,7 +64,7 @@ export default [
   "sum",
   "sysdate",
   "systimestamp",
-  "tables_columns",
+  "table_columns",
   "timestamp_ceil",
   "timestamp_floor",
   "timestamp_sequence",
