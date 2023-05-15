@@ -31,6 +31,7 @@ export default [
   "end",
   "except",
   "exists",
+  "explain",
   "fill",
   "foreign",
   "from",
