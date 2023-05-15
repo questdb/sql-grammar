@@ -56,6 +56,7 @@ export default [
   "rnd_str",
   "rnd_symbol",
   "rnd_timestamp",
+  "rnd_uuid4",
   "round",
   "round_down",
   "round_half_even",
