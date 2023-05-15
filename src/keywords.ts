@@ -101,5 +101,5 @@ export default [
   "prepare",
   "complete",
   "squash",
-  "partitions"
+  "partitions",
 ]
