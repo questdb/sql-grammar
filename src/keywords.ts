@@ -100,4 +100,6 @@ export default [
   "snapshot",
   "prepare",
   "complete",
+  "squash",
+  "partitions"
 ]
