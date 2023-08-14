@@ -50,6 +50,7 @@ export default [
   "rnd_float",
   "rnd_geohash",
   "rnd_int",
+  "rnd_ipv4",
   "rnd_long",
   "rnd_long256",
   "rnd_short",
