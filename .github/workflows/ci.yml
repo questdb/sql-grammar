@@ -24,7 +24,7 @@ jobs:
         run: yarn lint
 
       - name: Publish @questdb/sql-grammar to npm
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
