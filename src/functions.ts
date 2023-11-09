@@ -176,6 +176,8 @@ export default [
   "split_part",
   "sqrt",
   "starts_with",
+  "stddev",
+  "stddev_pop",
   "stddev_samp",
   "string_agg",
   "strpos",
