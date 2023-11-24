@@ -9,6 +9,7 @@ export default [
   "all_permissions",
   "all_tables",
   "and",
+  "approx_percentile",
   "asin",
   "atan",
   "atan2",
