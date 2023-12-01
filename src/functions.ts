@@ -45,6 +45,7 @@ export default [
   "dump_thread_stacks",
   "extract",
   "first",
+  "first_value",
   "floor",
   "flush_query_cache",
   "format",
