@@ -82,7 +82,7 @@ export default [
   "none",
   "not",
   "null",
-  "observation"
+  "observation",
   "offset",
   "on",
   "only",
