@@ -48,6 +48,7 @@ export default [
   "exit",
   "explain",
   "fill",
+  "first",
   "foreign",
   "from",
   "grant",
@@ -81,6 +82,7 @@ export default [
   "none",
   "not",
   "null",
+  "observation"
   "offset",
   "on",
   "only",
