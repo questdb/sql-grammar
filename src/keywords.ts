@@ -12,6 +12,7 @@ export default [
   "asof",
   "assume",
   "attach",
+  "atomic",
   "backup",
   "between",
   "by",
