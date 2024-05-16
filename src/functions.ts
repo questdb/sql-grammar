@@ -165,6 +165,7 @@ export default [
   "rnd_symbol",
   "rnd_timestamp",
   "rnd_uuid4",
+  "rnd_varchar",
   "round",
   "round_down",
   "round_half_even",
