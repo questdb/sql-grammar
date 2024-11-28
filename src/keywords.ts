@@ -31,6 +31,7 @@ export default [
   "current",
   "dedup",
   "database",
+  "declare",
   "detach",
   "details",
   "default",
