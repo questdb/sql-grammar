@@ -42,7 +42,7 @@ For example, the [QuestDB Web Console](https://github.com/questdb/ui/blob/ba6ef3
 ## Other QuestDB Resources
 
 Complete references are available in the
-[Documentation](https://questdb.io/docs/introduction/).
+[Documentation](https://questdb.io/docs/).
 
 ### Get started
 
