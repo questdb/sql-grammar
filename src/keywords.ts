@@ -99,6 +99,7 @@ export default [
   "others",
   "outer",
   "over",
+  "owned",
   "param",
   "partition",
   "partitions",
