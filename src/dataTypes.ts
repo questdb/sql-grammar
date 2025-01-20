@@ -8,6 +8,7 @@ export default [
   "float",
   "geohash",
   "int",
+  "interval",
   "ipv4",
   "long",
   "long128",
