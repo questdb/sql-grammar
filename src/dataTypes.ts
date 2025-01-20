@@ -17,5 +17,5 @@ export default [
   "string",
   "symbol",
   "timestamp",
-  "uuid"
+  "uuid",
 ]
