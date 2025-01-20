@@ -88,7 +88,7 @@ export default [
   "none",
   "not",
   "null",
-  "nulls,
+  "nulls",
   "observation",
   "offset",
   "on",
