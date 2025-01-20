@@ -74,7 +74,7 @@ export default [
   "join",
   "jwk",
   "key",
-  "keys,
+  "keys",
   "latest",
   "left",
   "level",
