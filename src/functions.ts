@@ -66,6 +66,7 @@ export default [
   "lag",
   "last",
   "lcase",
+  "lead",
   "left",
   "len",
   "length",
