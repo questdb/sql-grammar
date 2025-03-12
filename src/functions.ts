@@ -79,6 +79,7 @@ export default [
   "lpad",
   "ltrim",
   "make_geohash",
+  "materialized_views",
   "max",
   "maxUncommittedRows",
   "memory_metrics",
