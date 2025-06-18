@@ -144,6 +144,7 @@ export default [
   "then",
   "time",
   "to",
+  "tolerance",
   "token",
   "transaction",
   "truncate",
