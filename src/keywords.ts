@@ -71,7 +71,6 @@ export default [
   "immediate",
   "in",
   "include",
-  "incremental",
   "index",
   "inner",
   "insert",
