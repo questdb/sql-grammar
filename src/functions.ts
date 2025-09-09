@@ -228,6 +228,8 @@ export default [
   "to_uppercase",
   "to_utc",
   "to_uuid",
+  "today",
+  "tomorrow",
   "touch",
   "transpose",
   "trim",
@@ -244,4 +246,5 @@ export default [
   "within",
   "vwap",
   "year",
+  "yesterday",
 ]
