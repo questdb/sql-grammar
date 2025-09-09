@@ -3,6 +3,7 @@ export default [
   "<<=",
   ">>",
   ">>=",
+  "_query_trace",
   "VARCHAR",
   "abs",
   "acos",
