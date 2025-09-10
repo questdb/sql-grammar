@@ -8,6 +8,7 @@ export default [
   "float",
   "geohash",
   "int",
+  "integer",
   "interval",
   "ipv4",
   "long",
@@ -17,5 +18,7 @@ export default [
   "string",
   "symbol",
   "timestamp",
+  "timestamp_ns",
   "uuid",
+  "varchar",
 ]
