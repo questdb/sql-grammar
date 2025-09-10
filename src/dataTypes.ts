@@ -18,6 +18,7 @@ export default [
   "string",
   "symbol",
   "timestamp",
+  "timestamp_ns",
   "uuid",
   "varchar",
 ]
