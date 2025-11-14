@@ -26,7 +26,6 @@ export default [
   "atan",
   "atan2",
   "avg",
-  "avg_decimal",
   "base64",
   "batch",
   "between",
