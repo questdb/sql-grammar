@@ -196,6 +196,7 @@ export default [
   "rnd_byte",
   "rnd_char",
   "rnd_date",
+  "rnd_decimal",
   "rnd_double",
   "rnd_double_array",
   "rnd_float",

@@ -4,6 +4,7 @@ export default [
   "byte",
   "char",
   "date",
+  "decimal",
   "double",
   "float",
   "geohash",
