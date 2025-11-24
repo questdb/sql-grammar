@@ -1,6 +1,6 @@
 {
   "name": "@questdb/sql-grammar",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "List of keywords, functions and constants that QuestDB supports",
   "main": "lib/index.js",
   "scripts": {
