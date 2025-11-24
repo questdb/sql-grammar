@@ -182,6 +182,7 @@ export default [
   "wal",
   "when",
   "where",
+  "window",
   "with",
   "writer",
   "zone",
