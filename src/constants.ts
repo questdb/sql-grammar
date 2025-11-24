@@ -19,6 +19,8 @@ export default [
   "lz4_raw",
   "lzo",
   "manual",
+  "microsecond",
+  "microseconds",
   "millisecond",
   "milliseconds",
   "minute",
