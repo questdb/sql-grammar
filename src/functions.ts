@@ -105,6 +105,7 @@ export default [
   "left",
   "len",
   "length",
+  "length_bytes",
   "like",
   "list",
   "ln",
