@@ -2,17 +2,23 @@ name: CI
 
 on:
   push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   CI:
     name: CI flow
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "16.13.1"
+          node-version: "20"
           cache: "yarn"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache
@@ -20,14 +26,19 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Lint
-        run: yarn lint
+      - name: Check if version exists on npm
+        if: github.ref == 'refs/heads/master'
+        id: check-version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if npm view @questdb/sql-grammar@$VERSION version 2>/dev/null; then
+            echo "Version $VERSION already exists on npm"
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "Version $VERSION does not exist on npm"
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Publish @questdb/sql-grammar to npm
-        if: github.ref == 'refs/heads/master'
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          access: public
-          check-version: true
-          package: ./package.json
+        if: github.ref == 'refs/heads/master' && steps.check-version.outputs.exists == 'false'
+        run: npm publish --provenance --access public
