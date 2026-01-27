@@ -157,6 +157,7 @@ export default [
   "squash",
   "start",
   "statistics_enabled",
+  "suspend",
   "system",
   "table",
   "tables",
