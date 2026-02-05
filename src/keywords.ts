@@ -37,6 +37,7 @@ export default [
   "copy",
   "create",
   "cross",
+  "cumulative",
   "current",
   "dedup",
   "data_page_size",
