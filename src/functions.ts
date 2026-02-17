@@ -300,6 +300,7 @@ export default [
   "touch",
   "transpose",
   "trim",
+  "twap",
   "txid_current",
   "typeOf",
   "ucase",
