@@ -1,4 +1,9 @@
-export default [ 
+export default [
+  "<<",
+  "<<=",
+  ">>",
+  ">>=",
+  "VARCHAR",
   "abs",
   "acos",
   "all_permissions",
