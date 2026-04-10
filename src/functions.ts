@@ -1,4 +1,4 @@
-export const functions: string[] = [
+export default [ 
   "abs",
   "acos",
   "all_permissions",

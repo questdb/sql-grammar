@@ -1,4 +1,4 @@
-export const keywords: string[] = [
+export default [
   "abort",
   "account",
   "accounts",
